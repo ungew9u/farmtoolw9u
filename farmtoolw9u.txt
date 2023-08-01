@@ -17,4 +17,4 @@ local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;
 
 UserSettings().GameSettings.MasterVolume = 0
 game:GetService("RunService"):Set3dRenderingEnabled(false)
-setfpscap(7)
+setfpscap(3)
