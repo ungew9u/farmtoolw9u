@@ -1,7 +1,3 @@
---[[ -- executions -- ]]--
-
-if getgenv().blahblahblah then return end; getgenv().blahblahblah = true;
-
 --[[ -- load -- ]]--
 
 repeat task.wait(); until game:IsLoaded();
