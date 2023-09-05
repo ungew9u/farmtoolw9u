@@ -1,4 +1,9 @@
+--[[ -- executions -- ]]--
+
+if getgenv().blahblahblah then return end; getgenv().blahblahblah = true;
+
 --[[ -- load -- ]]--
+
 repeat task.wait(); until game:IsLoaded();
 repeat task.wait(); until game:GetService("Workspace").Players:FindFirstChild(game:GetService("Players").LocalPlayer.Name);
 
